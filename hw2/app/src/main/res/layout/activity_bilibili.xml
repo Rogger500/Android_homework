@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bilibili">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:src="@drawable/bilibili_logo"/>
+
+        <Button
+            android:id="@+id/home_page_btn"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/home_page"
+            android:textSize="25sp"
+            android:backgroundTint="@color/blue"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/like_image"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/like1"/>
+
+            <ImageView
+                android:id="@+id/like2_image"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:src="@drawable/like2"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/coin_image"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coin1"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/favorite_image"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favorite1"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

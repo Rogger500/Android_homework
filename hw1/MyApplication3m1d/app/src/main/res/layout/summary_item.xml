@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/difficuly"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        android:paddingBottom="5dp"
+        android:text="简单" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/difficuly"
+        android:text="1.两数之和"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title">
+
+        <TextView
+            android:id="@+id/tip"
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="35dp"
+            android:text="― |"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/pro_su_num"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tip"
+            android:gravity="center"
+            android:text="题解8，417" />
+
+        <TextView
+            android:id="@+id/tip2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/pro_su_num"
+            android:text="|"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/pass_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tip2"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="题解8，417" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
