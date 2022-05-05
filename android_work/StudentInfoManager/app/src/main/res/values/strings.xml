@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">学生信息管理系统</string>
+    <array name="gradeData">
+        <item>大一</item>
+        <item>大二</item>
+        <item>大三</item>
+        <item>大四</item>
+    </array>
+</resources>

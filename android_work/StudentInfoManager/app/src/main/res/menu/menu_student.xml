@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/add"
+        android:title="添加"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addTeacher"
+        android:icon="@drawable/add"
+        android:title="添加教师信息"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/viewTeachers"
+        android:icon="@drawable/add"
+        android:title="查看所有教师"
+        app:showAsAction="never" />
+</menu>
