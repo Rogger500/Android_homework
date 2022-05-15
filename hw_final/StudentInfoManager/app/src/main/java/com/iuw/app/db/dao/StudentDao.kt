@@ -3,10 +3,6 @@ package com.iuw.app.db.dao
 import androidx.room.*
 import com.iuw.app.db.bean.Student
 
-/**
- * @author sx  2021/12/20 15:55
- * @email  1668626317@qq.com
- */
 
 @Dao
 interface StudentDao {

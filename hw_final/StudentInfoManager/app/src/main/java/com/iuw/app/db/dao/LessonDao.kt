@@ -3,10 +3,6 @@ package com.iuw.app.db.dao
 import androidx.room.*
 import com.iuw.app.db.bean.Lesson
 
-/**
- * @author sx  2021/12/22 10:41
- * @email  1668626317@qq.com
- */
 @Dao
 interface LessonDao {
     @Query("select * from Lesson")
